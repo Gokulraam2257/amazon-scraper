@@ -7,7 +7,7 @@ export default async function searchProducts(query, host) {
   ).text();
 
   var all_product = searchRes.split(
-    '<div class="s-card-container s-overflow-hidden aok-relative puis-include-content-margin puis s-latency-cf-section s-card-border">'
+    '<div class="a-section">'
   );
 
   var i,
