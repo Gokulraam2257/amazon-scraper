@@ -133,6 +133,7 @@ export default async function searchProducts(query, host) {
 
   return JSON.stringify(
     {
+      all product : all_product.length,
       status: true,
       total_result: result.length,
       query: searchQuery,
