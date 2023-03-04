@@ -7,12 +7,12 @@ export default async function searchProducts(query, host) {
   ).text();
 
   var all_product = searchRes.split(
-    '<div class="sg-col-inner">'
+    '<div class="a-section aok-relative s-image-fixed-height">'
   );
 
   var i,
     result = [];
-  for (i = 1; i < all_product.length; i++) {
+  for (i = 1; i <= all_product.length; i++) {
     /* (type 1) */
     try {
       var product_link =
