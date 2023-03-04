@@ -44,7 +44,7 @@ export default async function searchProducts(query, host) {
           price: parseFloat(
             all_product[i]
               .split(
-                '<span class="a-price" data-a-size="l" data-a-color="price"><span class="a-offscreen">'
+                '<span class="a-price" data-a-size="xl" data-a-color="base"><span class="a-offscreen">'
               )[1]
               .split("</span>")[0]
               .replace(/,/g, "")
