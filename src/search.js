@@ -76,7 +76,7 @@ export default async function searchProducts(query, host) {
       '<div class="a-section a-spacing-medium a-text-center">'
     );
 
-    for (i = 1; i < all_product.length; i++) {
+    for (i = 1; i <= all_product.length; i++) {
       try {
         var product_link =
           "https://www.amazon.in" +
